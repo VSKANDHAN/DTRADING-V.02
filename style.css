@@ -1,0 +1,272 @@
+
+.navbar{    
+    background: url(navbarbg.png) no-repeat;
+    background-position: top left;
+    background-size: 100%;
+    display: block;
+   
+    top: 0;
+    width: 100%;
+    z-index: 555;
+    min-height: 128px;
+    
+}
+#navcontainer{
+   
+    margin-right: 20%;
+  
+  
+}
+#navcontainer a{
+    margin: 14px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#navlink.active{
+    color: #f24259;
+}
+
+
+
+#navlogo1{
+    color:#1c345d;
+    padding: 6px;
+    font-family: 'Luckiest Guy', cursive;
+    margin-left: 40px;
+    font-size: 36px;
+}
+
+#navlogo{
+   color: #f24259
+}
+
+#navlink:hover{
+  color: #f24259
+}
+#navtop{
+    background: #f24259;
+    display: flex;
+    
+}
+#navtopright{
+    display: flex;
+margin-left: 6%;
+    justify-content: space-evenly;
+}
+#navtopright i{
+    margin: 10px;
+    color: white;
+}
+#scrollbar{
+    margin-top:-128px;
+}
+
+#s1{
+
+    position: relative;
+    background-image: linear-gradient(
+        #1c345d59, 
+        #1c345d6b
+      ), url(slider01.jpg);
+    background-size: cover;
+   
+   width: auto;
+   height: 700px;
+   display: flex;
+}
+#s2{
+    
+    position: relative;
+    background-image: linear-gradient(
+        #1c345d7c, 
+        #1c345d7e
+      ), url(slider02.jpg);
+    background-size: cover;
+   
+   width: auto;
+   height: 700px;
+   display: flex;
+
+}
+#s3{
+    
+    position: relative;
+    background-image: linear-gradient(
+        #1c345da2, 
+        #1c345d98
+      ), url(slider03.jpg);
+    background-size: cover;
+   
+   width: auto;
+   height: 700px;
+   display: flex;
+}
+#quote,#quote1 { animation: fadeIn 5s; }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+#quote,#quote1{
+    transition: ease-in;
+}
+#quote{
+  margin-top: 20%;
+  margin-left: 10%;
+  width: 40%;
+  color: white;
+
+}
+#quote1{
+    margin-top: 20%;
+    margin-left: 58%;
+   
+    width: 40%;
+    color: white;
+  
+  }
+  #quote1 h1{  font-size: 30px;
+    text-align:start;
+
+}
+ 
+#quote h1{  font-size: 30px;
+    text-align:start;
+
+}
+ .fa-quote-left,.fa-quote-right{
+        color: #f24259;
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: #f24259;
+        color:white;
+      }
+      #tabs3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       
+
+      }
+      #tab{
+        position: relative;
+        margin-top: -60px;
+        margin-left: 30px;
+     
+       
+        width: 28%;
+        height: 188px;
+       
+        background-color: white;
+        box-shadow: 0px 10px 16px 0px rgb(0 0 0 / 8%);
+        border-radius: 6px;
+        text-align: center;
+      }
+      #tab img{
+        width: 40%;
+      }
+      #tab p{
+        font-size: 16px;
+        text-align: start;
+        padding: 6px;
+        font-weight: 400;
+        
+      }
+      #tab i{
+        margin-top: 4px;
+    font-size: 50px;
+        color: #f24259;
+      }
+      #tab button{
+        
+        background-color: #f24259;
+        text-decoration: none;
+        border-color: #f24259;
+        border-radius: 4px;
+      }
+      #tab button:hover{
+        background-color: white;
+        
+      }
+      #tab button a:hover{
+        color: #f24259;
+        font-weight: bold;
+      }
+      #tab button a{
+        color: white;
+   
+        text-decoration: none;
+      }
+      #aliceb a{
+        color: #f24259;
+        font-weight: bold;
+        text-decoration: none;
+    
+        
+        
+      }
+      
+    
+
+      @media(max-width:786px) {
+        #s1{
+            width: auto;
+           height: 300px;
+        }
+        #s2{
+            width: auto;
+           height: 300px;
+        }
+        #s3{
+            width: auto;
+           height: 300px;
+        }
+        #quote h1{  font-size: 24px;
+    
+        }
+        #quote1 h1{  font-size: 24px;
+    
+        }
+        #quote{
+            width: 100%;
+        }
+        #quote1{
+          
+        
+          
+           margin-left: 10%;
+           
+           
+            width: 100%;
+           
+          
+          }
+          #tabs3{
+            display: flex;
+            flex-direction:column;
+           
+    
+          }
+        
+        }
