@@ -35,6 +35,13 @@
     margin-left: 40px;
     font-size: 36px;
 }
+#navlogo2{
+  color:#ffffff;
+  padding: 6px;
+  font-family: 'Luckiest Guy', cursive;
+  margin-left: 40px;
+  font-size: 30px;
+}
 
 #navlogo{
    color: #f24259
@@ -42,6 +49,10 @@
 
 #navlink:hover{
   color: #f24259
+}
+#navtop a{
+  color:white;
+  text-decoration:none;
 }
 #navtop{
     background: #f24259;
@@ -52,6 +63,16 @@
     display: flex;
 margin-left: 6%;
     justify-content: space-evenly;
+}
+#navtopleft{
+  display: flex;
+margin-left:52%;
+  justify-content: space-around;
+  padding: 2px;
+ 
+}
+#navtopleft i{
+  margin:10px
 }
 #navtopright i{
     margin: 10px;
@@ -176,7 +197,7 @@ margin-left: 6%;
      
        
         width: 28%;
-        height: 188px;
+        height: 190px;
        
         background-color: white;
         box-shadow: 0px 10px 16px 0px rgb(0 0 0 / 8%);
@@ -187,10 +208,12 @@ margin-left: 6%;
         width: 40%;
       }
       #tab p{
-        font-size: 16px;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        color: #233049e0;;
         text-align: start;
         padding: 6px;
-        font-weight: 400;
+        font-weight: 550;
         
       }
       #tab i{
@@ -204,6 +227,8 @@ margin-left: 6%;
         text-decoration: none;
         border-color: #f24259;
         border-radius: 4px;
+       
+       
       }
       #tab button:hover{
         background-color: white;
@@ -215,6 +240,8 @@ margin-left: 6%;
       }
       #tab button a{
         color: white;
+        padding: 6px;
+        font-size: 18px;
    
         text-decoration: none;
       }
@@ -226,10 +253,168 @@ margin-left: 6%;
         
         
       }
+      #welcome{
+        text-align: center;
+        
+      }
+      #welcome p{
+        font-weight: 450;
+        font-size: 24px;
+      margin: 50px;
+      color: #1c345d;
+
+      }
+      #welcome h4{
+        font-family: 'Poppins', sans-serif;
+        font-size: 36px;
+        font-weight: 500;
+      margin-top: 80px;
+        color: #f24259;
+      }
+      #testimonial h4{   font-family: 'Poppins', sans-serif;
+        font-size: 36px;
+        font-weight: 500;
+      margin-top: 80px;
+      margin-bottom: 50px;
+        color: #f24259;
+      text-align: center;
+      }
+      #testimonialscroll{
+        display: flex;
+        justify-content: center;
+      }
+      #testtab{
+        display: flex;
+        width: 90%;
+        height: auto;
+       
+      }
+      #testdiv{
+        margin: 20px;
+        width: 50%;
+        height:250px;
+        border-radius: 6px;
+        background-color: #233049;
+        color: white;
+        text-align: center;
+        
+      }
+      #testdiv h5{
+        color: #f24259;
+        margin-top: 14px;
+      }
+      #testdiv p{
+        text-align: center;
+        font-weight: 400;
+        padding: 6px;
+      }
+      #testdiv img{
+        width: 22%;
+      border-radius: 100%;
+      margin-top: -16px;
+      border-color: white;
+      border-width: 4px;
+      border-style:solid;
+        
+      
+      }
+      #contact{
+        background-color: #233049;
+        display: flex;
+        
+      }
+      #footerdiv{
+        width:50%;
+        height: 300px;
+        padding-top: 60px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+      }
+      #footerdivlogo{
+        width:50%;
+        height: 300px;
+        padding-top: 60px;
+        text-align:start;
+      }
+      #footerdiv h4{
+        color: white;
+        font-size: 34px;
+        font-weight: 500;
+      }
+    
+      #footerdivlogo p{
+        color: white;
+        text-align: start;
+        margin-left: 46px;
+        margin-top: 20px;
+       
+      }
+      #footera{
+        color: white;
+        margin-top: 20px;
+        text-decoration: none;
+        margin-left: 46px;
+       
+      }
+      #footera:hover{
+        color:#f24259;
+      }
+      #contactp1{
+       
+        color: white;
+        text-decoration: none;
+        margin-top: 10px;
+        font-size: 16px;
+        text-align: start;
+        margin-left: 18px;
+
+      }
+      #contactp{
+        color: white;
+        text-align:center;
+        text-decoration: none;
+        margin-top: 20px;
+        font-size: 16px;
+      }
       
     
 
       @media(max-width:786px) {
+        #navtopleft div{
+          width: 100%;
+          font-size: 14px;
+          margin: 0%;
+          padding: 0%;
+        }
+      
+        #navtopleft{
+          width: 100%;
+      
+          margin: 0%;}
+          #navtopright a{
+            font-size: 12px;
+            margin: 0%;
+          }
+          #navtopright i{
+            margin: 0%;
+          }
+          #navtopleft i{
+            margin: 0%;
+          }
+        #navtopleft a{
+          font-size: 10px;
+        }
+        #navtopright{
+          width: 100%;
+          margin: 0%;
+         
+         
+         
+        }
+      
+       
+       
         #s1{
             width: auto;
            height: 300px;
@@ -267,6 +452,34 @@ margin-left: 6%;
             flex-direction:column;
            
     
+          }
+          #tab{
+            width: 90%;
+            height: 190px;
+            margin-top: 12px;
+          
+           
+          }
+          #tab img{
+            width: 30%;
+          }
+           
+         
+           
+           
+          
+        #testdiv{
+          margin: auto;
+          margin-bottom: 10px;
+          width: 80%;
+          height:240px;
+        }
+        
+          #testtab{
+          
+            flex-direction: column;
+            width: 100%;
+        height: auto;
           }
         
         }
