@@ -3,11 +3,16 @@
     background: url(navbarbg.png) no-repeat;
     background-position: top left;
     background-size: 100%;
+
+  
+   
     display: block;
+    position:sticky;
    
     top: 0;
     width: 100%;
     z-index: 555;
+
     min-height: 128px;
     
 }
@@ -22,7 +27,7 @@
     font-size: 18px;
     font-weight: bold;
 }
-#navlink.active{
+#navcontainer a.active{
     color: #f24259;
 }
 
@@ -47,7 +52,7 @@
    color: #f24259
 }
 
-#navlink:hover{
+#navcontainer a:hover{
   color: #f24259
 }
 #navtop a{
@@ -377,10 +382,54 @@ margin-left:52%;
         margin-top: 20px;
         font-size: 16px;
       }
+      #contactp:hover{
+        color:#f24259;
+      }
+      #contactp1:hover{
+        color:#f24259;
+      }
+      #copyright{
+        background-color: #f24259;
+        color: white;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 18px;
+        padding: 10px;
       
+      }
+      #cpspan {  font-family: 'Luckiest Guy', cursive;
+        font-size: 20px;
+  
+      }
+      #copyright a{       
+        color: white;
+         text-decoration: none;
+
+
+      }
+      ::-webkit-scrollbar {
+        width: 6px;
+    }
     
+     ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    
+     ::-webkit-scrollbar-thumb {
+      background-color: #f24259;
+    }
+    
+     ::-webkit-scrollbar-thumb:hover {
+      background-color: #f24259;
+    }
+
 
       @media(max-width:786px) {
+        .navbar{
+        
+        }
         #navtopleft div{
           width: 100%;
           font-size: 14px;
@@ -480,6 +529,26 @@ margin-left:52%;
             flex-direction: column;
             width: 100%;
         height: auto;
+          }
+          #contact{
+            flex-direction: column;
+            
+          }
+          #contactp{
+            text-align: start;
+            margin-left:28px;
+          }
+          #contactp1{
+            text-align: start;
+            margin-left: 28px;
+          }
+          #footerdiv h4{
+            text-align: start;
+            margin-left:28px;
+          }
+          #footerdivlogo{
+            text-align: start;
+            margin-left: -12px;
           }
         
         }
