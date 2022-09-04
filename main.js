@@ -1,3 +1,22 @@
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    document.querySelector(".navbar").style.backgroundColor="white"
+    document.querySelector(".navbar").style.    boxShadow="0px 10px 16px 0px rgb(0 0 0 / 8%)"
+    document.querySelector(".navbar").style.minHeight="90px"
+
+
+
+  } else {
+    document.querySelector(".navbar").style.minHeight="128px"
+    document.querySelector(".navbar").style.backgroundColor="#ffffff00"
+
+    
+  }
+}
+
 let rev = 0;
 carousel(rev);
 
