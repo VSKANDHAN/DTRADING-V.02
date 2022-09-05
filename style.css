@@ -405,6 +405,7 @@ margin-left:52%;
       }
       #cpspan {  font-family: 'Luckiest Guy', cursive;
         font-size: 20px;
+        letter-spacing: 1px;
   
       }
       #copyright a:hover{
@@ -477,7 +478,7 @@ margin-left:52%;
 #ss1 h5{
   color: white;
  margin: auto;
- font-size: 36px;
+ font-size: 40px;
  font-weight: 500;
 
 }
@@ -485,6 +486,7 @@ margin-left:52%;
 #courses{
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 #coursetab{
   
@@ -497,7 +499,7 @@ text-align: center;
   margin: 20px;
 }
 #coursetab h6{
- font-size: 25px;
+ font-size: 22px;
  font-family: sans-serif;
  font-weight: 600;
  margin-top: 50px;
@@ -541,11 +543,87 @@ text-align: center;
 #coursetab li{
   padding: 10px;
 }
+#joinbtn{
+  text-decoration: none;
+  color: white;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 16px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #f24259;
+}
+#joinbtn:hover{
+  background-color: white;
+  color: #f24259;
+}
+#contacttabs{
+  display: flex;
+  justify-content: center;
+ 
+ 
+ 
+
+}
+#contacttab{
+  margin: 40px;
+ 
+  padding:50px;
+  display: flex;
+  flex-direction: column;
+ width: 60%;
+ height: 240px;
+
+box-shadow: 0px 10px 16px 0px rgba(0, 0, 0, 0.212);
+border-radius: 6px;
+}
+#contacttab h4{
+  color: #f24259;
+  text-align: center;
+}
+#contactp2{
+  color: #1c345d;
+  text-align: justify;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}#contactp3{
+  color: #1c345d;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+#contactp2:hover{
+  color: #f24259;
+}
+#contactp2 i{
+  color: #f24259;
+}
+#contactp3 i{
+  color: #f24259;
+}
+#ratings1{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+margin-left: 10px;
+ 
+}
 
 /* -------------------Responsive -----------------------*/
       @media(max-width:786px) {
-        .navbar{
-        
+       
+     
+        #navlogo1{
+          font-size: 26px;
+          margin-top: -14px;
+        }
+        .navbar-toggler{
+          font-size: 10px;
         }
         #navtopleft div{
           width: 100%;
@@ -680,6 +758,9 @@ text-align: center;
           
             width: 90%;
             height: 680px;
+          }
+          #contacttabs{
+         flex-direction: column;
           }
         
         }
