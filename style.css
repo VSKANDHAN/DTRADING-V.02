@@ -1,4 +1,7 @@
-
+/* --------------------home page----------------------- */
+body{
+  background-color: #f9f9f9;;
+}
 .navbar{    
     background: url(navbarbg.png) no-repeat;
     background-position: top left;
@@ -177,13 +180,13 @@ margin-left:52%;
         user-select: none;
       }
       
-      /* Position the "next button" to the right */
+   
       .next {
         right: 0;
         border-radius: 3px 0 0 3px;
       }
       
-      /* On hover, add a black background color with a little bit see-through */
+ 
       .prev:hover, .next:hover {
         background-color: #f24259;
         color:white;
@@ -377,7 +380,8 @@ margin-left:52%;
       }
       #contactp{
         color: white;
-        text-align:center;
+        text-align:start;
+        margin-left: 114px;
         text-decoration: none;
         margin-top: 20px;
         font-size: 16px;
@@ -403,11 +407,39 @@ margin-left:52%;
         font-size: 20px;
   
       }
+      #copyright a:hover{
+        color: #1e3c72e5;
+       
+
+      }
       #copyright a{       
         color: white;
          text-decoration: none;
 
 
+      }
+      #rateh5{
+        padding-top: 20px;
+        text-align: center;
+        color: #f24259;
+        font-size: 30px;
+      }
+      #ratings{
+        display: flex;
+        justify-content: center;
+        padding-bottom:40px;
+      }
+      #rate{
+        padding: 10px;
+      }
+      
+      #rate i{
+        font-size: 22px;
+        color:#FFD700;
+
+      }
+      #rate i:hover{
+        color:#f24259;
       }
       ::-webkit-scrollbar {
         width: 6px;
@@ -424,8 +456,93 @@ margin-left:52%;
      ::-webkit-scrollbar-thumb:hover {
       background-color: #f24259;
     }
+/* --------------------------------------courses page--------------------------- */
+#scrollbar1{
+  margin-top:-128px;
+}
 
+#ss1{
 
+  position: relative;
+  background-image: linear-gradient(
+      #1c345da1, 
+      #1c345db6
+    ), url(slider01.jpg);
+  background-size: cover;
+ 
+ width: auto;
+ height: 400px;
+ display: flex;
+}
+#ss1 h5{
+  color: white;
+ margin: auto;
+ font-size: 36px;
+ font-weight: 500;
+
+}
+
+#courses{
+  display: flex;
+  justify-content: center;
+}
+#coursetab{
+  
+  background-color: #233049;
+color: white;
+text-align: center;
+  width: 34%;
+  border-radius: 10px;
+  height: 680px;
+  margin: 20px;
+}
+#coursetab h6{
+ font-size: 25px;
+ font-family: sans-serif;
+ font-weight: 600;
+ margin-top: 50px;
+
+ padding: 2px;
+}
+#cost{
+  background-color: white;
+  width: 100%;
+  height: 12%;
+  border-radius: 12px;
+  text-align: center;
+
+}
+#cost h3{
+  color: #1c345d;
+  font-size: 30px;
+  font-weight: 600;
+ padding-top: 26px;
+ 
+}
+
+#coursetab ul{
+
+  list-style: none;
+  text-align: start;
+ 
+  padding-top: 6px;
+ 
+
+}
+.fa-check{
+  color: #f24259;
+  font-size:20px;
+}
+#coursetab p{
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+#coursetab li{
+  padding: 10px;
+}
+
+/* -------------------Responsive -----------------------*/
       @media(max-width:786px) {
         .navbar{
         
@@ -462,7 +579,10 @@ margin-left:52%;
          
         }
       
-       
+        #ss1{
+          width: auto;
+         height: 300px;
+      }
        
         #s1{
             width: auto;
@@ -549,6 +669,17 @@ margin-left:52%;
           #footerdivlogo{
             text-align: start;
             margin-left: -12px;
+          }
+          #courses{
+           flex-direction: column;
+          }
+          #coursetab{
+  
+           
+       
+          
+            width: 90%;
+            height: 680px;
           }
         
         }
