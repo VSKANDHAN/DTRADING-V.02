@@ -848,6 +848,10 @@ justify-content: center;
           #copyright span{
             font-size: 16px;
           }
+          #cpspan{
+            font-size: 16px;
+
+          }
           #contacttab{
           width: 80%;
           margin-right: auto;
