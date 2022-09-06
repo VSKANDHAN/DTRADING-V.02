@@ -1,10 +1,19 @@
 
-window.onscroll = function() {scrollFunction()};
+if(window.innerWidth > 786){
+    window.onscroll = function() {scrollFunction()};
+}
+else if(window.innerWidth < 786){
+    document.querySelector(".navbar").style.backgroundColor="white"
+    document.querySelector(".navbar").style.boxShadow="0px 10px 16px 0px rgb(0 0 0 / 8%)"
+    document.querySelector(".navbar").style.minHeight="90px"
+
+}
+ 
 
 function scrollFunction() {
   if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
     document.querySelector(".navbar").style.backgroundColor="white"
-    document.querySelector(".navbar").style.    boxShadow="0px 10px 16px 0px rgb(0 0 0 / 8%)"
+    document.querySelector(".navbar").style.boxShadow="0px 10px 16px 0px rgb(0 0 0 / 8%)"
     document.querySelector(".navbar").style.minHeight="90px"
 
 
